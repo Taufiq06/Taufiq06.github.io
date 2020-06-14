@@ -1,9 +1,9 @@
 ---
 title: "Residual Network (ResNet) for Identifying the Digit Represented by a Hand Sign"
 excerpt: "One of the challenges of training a very deep neural network is the vanishing and exploding gradient types of problems. When we make the network deeper and deeper, it becomes very difficult for it to choose parameters that learn even the identity function. So, the performance downgrades as the network get deeper. This problem can be significantly reduced by using Residual Networks (ResNets). ResNets use skip connections that take the activation from one layer and feed it to another layer much deeper in the network. It reduces the vanishing gradient problem, and the deeper layers can easily learn the identity function, which ensures that the performance will not degrade in deeper layers.
-<br>The project is about classifying the digit represented by a hand sign. The dataset consists of 1080 hand images for training and 120 images for validation. Here is a visual representation of the different classes:
+<br>The project is about classifying the digit represented by a hand sign. The dataset consists of 1080 hand images for training and 120 images for validation.
 <br/><img src='/images/signs_data.PNG'>
-<br><sub><sup><div align="center">Credit: DeepLearning.AI</sup></sub></div>
+<br><sub><sup><div align="center">Visual representation of the different classes. Credit: DeepLearning.AI</sup></sub></div>
 <br>I created the necessary building blocks to train a ResNet-50 model from scratch. Here is a summary of the model architecture:
 <br/><img src='/images/resnet_architecture.png'>
 <br><sub><sup>Credit: DeepLearning.AI, Kaiming He, Xiangyu Zhang, Shaoqing Ren, Jian Sun - Deep Residual Learning for Image Recognition (2015)</sup></sub>
